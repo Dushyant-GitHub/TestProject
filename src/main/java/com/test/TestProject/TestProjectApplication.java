@@ -9,6 +9,8 @@ public class TestProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestProjectApplication.class, args);
 		addNumber(5,10);
+		subtraction(10, 5);
+		multiplyNumber(3,4);
 		//hello World
 	}
 
@@ -16,6 +18,10 @@ public class TestProjectApplication {
 		int result = a+b;
 		System.out.println("Addition is : "+result);
 	}
+	private static void subtraction(int a, int b){
+		System.out.println("Result: "+(a-b));
+	}
+
 
 	private static void multiplyNumber(int a, int b){
 		int result = a*b;
