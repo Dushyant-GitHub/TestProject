@@ -26,6 +26,7 @@ public class TestProjectApplication {
 	private static void multiplyNumber(int a, int b){
 		int result = a*b;
 		System.out.println("Multiplication is : "+result);
+		System.out.println("This is Prachi Dushyant Shinde");
 	}
 
 }
