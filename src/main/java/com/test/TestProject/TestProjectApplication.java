@@ -8,7 +8,12 @@ public class TestProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestProjectApplication.class, args);
+		addNumber(5,10);
 		//hello World
 	}
 
+	private static void addNumber(int a, int b){
+		int result = a+b;
+		System.out.println("Addition is : "+result);
+	}
 }
