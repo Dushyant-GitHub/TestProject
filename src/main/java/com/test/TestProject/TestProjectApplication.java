@@ -22,11 +22,12 @@ public class TestProjectApplication {
 		System.out.println("Result: "+(a-b));
 	}
 
-
 	private static void multiplyNumber(int a, int b){
 		int result = a*b;
 		System.out.println("Multiplication is : "+result);
+		System.out.println("This is Dushyant Shinde.");
 		System.out.println("This is Prachi Dushyant Shinde");
+
 	}
 
 }
