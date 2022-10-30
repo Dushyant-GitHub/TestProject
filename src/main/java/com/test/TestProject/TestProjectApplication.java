@@ -27,6 +27,7 @@ public class TestProjectApplication {
 		int result = a*b;
 		System.out.println("Multiplication is : "+result);
 		System.out.println("This is Prachi Dushyant Shinde");
+		System.out.println("Hello world");
 	}
 
 }
