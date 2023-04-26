@@ -12,6 +12,9 @@ public class TestProjectApplication {
 		subtraction(10, 5);
 		multiplyNumber(3,4);
 		//hello World
+
+		SampleA sampleA = new SampleA(3,8);
+		sampleA.addTheNumbers();
 	}
 
 	private static void addNumber(int a, int b){
