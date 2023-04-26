@@ -12,6 +12,7 @@ public class TestProjectApplication {
 		subtraction(10, 5);
 		multiplyNumber(3,4);
 		division(4,2);
+		reminder(5,3);
 		//hello World
 
 		SampleA sampleA = new SampleA(3,8);
@@ -38,5 +39,8 @@ public class TestProjectApplication {
 		float division = a/b;
 		System.out.println("Division is : "+division);
 	}
-
+	private static void reminder(int a, int b){
+		int reminder = a%b;
+		System.out.println("reminder : "+reminder);
+	}
 }
