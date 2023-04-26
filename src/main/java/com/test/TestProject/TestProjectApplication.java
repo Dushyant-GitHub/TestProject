@@ -17,6 +17,7 @@ public class TestProjectApplication {
 		SampleA sampleA = new SampleA(3,8);
 		sampleA.addTheNumbers();
 		sampleA.multiply();
+		division(100,2);
 	}
 
 	private static void addNumber(int a, int b){
@@ -37,6 +38,11 @@ public class TestProjectApplication {
 	private static void division(int a, int b){
 		float division = a/b;
 		System.out.println("Division is : "+division);
+	}
+
+	public static void divideAndMultiply(int a ,int b){
+		System.out.println("Divide : "+a/b);
+		System.out.println("Multiply :"+a*b);
 	}
 
 }
