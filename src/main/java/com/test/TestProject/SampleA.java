@@ -13,4 +13,9 @@ public class SampleA {
         System.out.println("Adding the numbers");
         return a+b;
     }
+
+    public int multiply(){
+        System.out.println("Multiplication ....");
+        return a*b;
+    }
 }

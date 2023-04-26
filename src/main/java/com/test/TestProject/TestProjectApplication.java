@@ -15,6 +15,7 @@ public class TestProjectApplication {
 
 		SampleA sampleA = new SampleA(3,8);
 		sampleA.addTheNumbers();
+		sampleA.multiply();
 	}
 
 	private static void addNumber(int a, int b){
