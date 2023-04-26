@@ -44,6 +44,7 @@ public class TestProjectApplication {
 		int reminder = a%b;
 		System.out.println("reminder : "+reminder);
 		System.out.println("reminder is printed");
+		System.out.println("new commite");
 	}
 
 	public static void divideAndMultiply(int a ,int b){
