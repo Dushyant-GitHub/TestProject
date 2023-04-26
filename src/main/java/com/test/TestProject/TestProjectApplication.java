@@ -11,6 +11,7 @@ public class TestProjectApplication {
 		addNumber(5,10);
 		subtraction(10, 5);
 		multiplyNumber(3,4);
+		division(4,2);
 		//hello World
 
 		SampleA sampleA = new SampleA(3,8);
@@ -32,6 +33,10 @@ public class TestProjectApplication {
 		System.out.println("This is Dushyant Shinde.");
 		System.out.println("This is Prachi Dushyant Shinde");
 		System.out.println("Hello world");
+	}
+	private static void division(int a, int b){
+		float division = a/b;
+		System.out.println("Division is : "+division);
 	}
 
 }
