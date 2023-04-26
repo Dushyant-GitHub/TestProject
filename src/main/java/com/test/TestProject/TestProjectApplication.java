@@ -18,6 +18,7 @@ public class TestProjectApplication {
 		SampleA sampleA = new SampleA(3,8);
 		sampleA.addTheNumbers();
 		sampleA.multiply();
+		division(100,2);
 	}
 
 	private static void addNumber(int a, int b){
@@ -44,4 +45,10 @@ public class TestProjectApplication {
 		System.out.println("reminder : "+reminder);
 		System.out.println("reminder is printed");
 	}
+
+	public static void divideAndMultiply(int a ,int b){
+		System.out.println("Divide : "+a/b);
+		System.out.println("Multiply :"+a*b);
+	}
+
 }
