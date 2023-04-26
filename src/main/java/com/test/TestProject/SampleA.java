@@ -3,6 +3,7 @@ package com.test.TestProject;
 public class SampleA {
 
     int a, b;
+    String name;
 
     public SampleA(int a, int b) {
         this.a = a;
@@ -29,5 +30,15 @@ public class SampleA {
     public String getName(){
          System.out.println("Testing rebase!!!!!");
         return "PRachi";
+    }
+
+    public void setName(String name){
+        System.out.println("Name  : "+name);
+       this.name = name;
+    }
+
+    public int getRollNo(){
+        System.out.println("Testing rebase!!!!!");
+        return 34;
     }
 }
