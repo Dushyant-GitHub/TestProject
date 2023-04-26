@@ -42,5 +42,6 @@ public class TestProjectApplication {
 	private static void reminder(int a, int b){
 		int reminder = a%b;
 		System.out.println("reminder : "+reminder);
+		System.out.println("reminder is printed");
 	}
 }
