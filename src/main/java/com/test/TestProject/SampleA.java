@@ -3,10 +3,12 @@ package com.test.TestProject;
 public class SampleA {
 
     int a, b;
+    String name;
+
     String firstName;
     String lastName;
     String city;
-    
+
     public SampleA(int a, int b) {
         this.a = a;
         this.b = b;
@@ -33,19 +35,39 @@ public class SampleA {
          System.out.println("Testing rebase!!!!!");
         return "PRachi";
     }
-    
+
+    public void setName(String name){
+        System.out.println("Name  : "+name);
+       this.name = name;
+    }
+
+    public int getRollNo(){
+        System.out.println("Testing rebase!!!!!");
+        return 34;
+    }
+
+    public String sayNamaste(){
+        System.out.println("Namaste...!!!");
+        return "Namaste";
+    }
+
+    public String sayWanakkam(){
+        System.out.println("Wanakkam...!!!");
+        return "Wanakkam";
+    }
+
      public void setlastName(String name) {
         this.lastName = name;
     }
-    
+
      public void setfirstName(String name) {
         this.firstName = name;
     }
-    
+
     public void setCity(String city) {
         this.city = city;
     }
-    
+
 //      @Autowired
 //     private StudentService studentService;
 
@@ -57,6 +79,6 @@ public class SampleA {
 //          Student student1 = studentService.addStudentDetails(student);
 //          return new ResponseEntity<>(student1 , HttpStatus.CREATED);
 //     }
-    
-    
+
+
 }
