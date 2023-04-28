@@ -8,7 +8,7 @@ public class SampleA {
     String firstName;
     String lastName;
     String city;
-    
+
     public SampleA(int a, int b) {
         this.a = a;
         this.b = b;
@@ -46,18 +46,28 @@ public class SampleA {
         return 34;
     }
 
+    public String sayNamaste(){
+        System.out.println("Namaste...!!!");
+        return "Namaste";
+    }
+
+    public String sayWanakkam(){
+        System.out.println("Wanakkam...!!!");
+        return "Wanakkam";
+    }
+
      public void setlastName(String name) {
         this.lastName = name;
     }
-    
+
      public void setfirstName(String name) {
         this.firstName = name;
     }
-    
+
     public void setCity(String city) {
         this.city = city;
     }
-    
+
 //      @Autowired
 //     private StudentService studentService;
 
