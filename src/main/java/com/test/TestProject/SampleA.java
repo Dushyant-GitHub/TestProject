@@ -46,5 +46,17 @@ public class SampleA {
         this.city = city;
     }
     
+//      @Autowired
+//     private StudentService studentService;
+
+//     @Autowired
+//     private AddressService addressService;
+
+//     @PostMapping(value = "v1/student/add")
+//     public ResponseEntity<Student> addStudent(@RequestBody Student student){
+//          Student student1 = studentService.addStudentDetails(student);
+//          return new ResponseEntity<>(student1 , HttpStatus.CREATED);
+//     }
+    
     
 }
