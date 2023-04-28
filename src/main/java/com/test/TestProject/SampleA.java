@@ -5,6 +5,10 @@ public class SampleA {
     int a, b;
     String name;
 
+    String firstName;
+    String lastName;
+    String city;
+
     public SampleA(int a, int b) {
         this.a = a;
         this.b = b;
@@ -41,4 +45,18 @@ public class SampleA {
         System.out.println("Testing rebase!!!!!");
         return 34;
     }
+
+     public void setlastName(String name) {
+        this.lastName = name;
+    }
+
+     public void setfirstName(String name) {
+        this.firstName = name;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+
 }
