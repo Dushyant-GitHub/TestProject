@@ -18,14 +18,11 @@ public class SampleA {
         System.out.println("Multiplication ....");
         return a*b;
     }
-<<<<<<< Updated upstream
     
-     public void greetingTheWorld(){
+     public void greetingTheWorld() {
          System.out.println("Hello World.....By Dushyant");
-=======
-
+     }
     public void sayOlaToTheWorld(){
         System.out.println("say OLAAAAAAA !!!!!");
->>>>>>> Stashed changes
     }
 }
