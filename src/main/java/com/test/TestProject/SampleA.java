@@ -26,11 +26,10 @@ public class SampleA {
      public void greetingTheWorld() {
          System.out.println("Hello World.....By Dushyant");
      }
-
     public void sayOlaToTheWorld(){
         System.out.println("say OLAAAAAAA !!!!!");
     }
-    
+
     public String getName(){
          System.out.println("Testing rebase!!!!!");
         return "PRachi";
