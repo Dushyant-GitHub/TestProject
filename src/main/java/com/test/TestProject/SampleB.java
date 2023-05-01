@@ -29,4 +29,10 @@ public class SampleB {
     public void setDepth(String depth) {
         this.depth = depth;
     }
+    
+    public double calculateDimension(){
+        System.out.println("calculating the dimensions");
+        System.out.println("Result is the product of l*h*b");
+        return length*height*depth;
+    }
 }
