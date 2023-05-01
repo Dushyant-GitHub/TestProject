@@ -30,9 +30,9 @@ public class SampleB {
         this.depth = depth;
     }
     
-    public double calculateDimension(){
+    public void calculateDimension(){
         System.out.println("calculating the dimensions");
         System.out.println("Result is the product of l*h*b");
-        return length*height*depth;
+       // return length*height*depth;
     }
 }
