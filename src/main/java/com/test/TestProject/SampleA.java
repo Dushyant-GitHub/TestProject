@@ -78,6 +78,12 @@ public class SampleA {
 //          Student student1 = studentService.addStudentDetails(student);
 //          return new ResponseEntity<>(student1 , HttpStatus.CREATED);
 //     }
+    
+    public void calInterest(){
+        int p=25000, r = 2,n=3;
+        double res = (p * r * n)/100;
+        System.out.println("Simple interest = "+res);
+    }
 
 
 }
